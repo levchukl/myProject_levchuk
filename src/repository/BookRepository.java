@@ -12,7 +12,6 @@ public interface BookRepository {
 
     double getAllPriceOfSoldBooks();
 
-    //отримати вартість проданих книжок по жанрам
     HashMap<BookGenre, Double> getPriceOfSoldBooksByGenre();
 
     Profit getProfitByEmployee(long employeeId);

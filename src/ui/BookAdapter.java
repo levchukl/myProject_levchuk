@@ -48,10 +48,10 @@ public class BookAdapter {
         */
         int age = 30;
         String analyzeGenreStr = "Customs under %d choose the %s";
-        System.out.println(String.format(analyzeGenreStr, 30, repository.getMostPopularGenreLessThanAge(30)));
+        System.out.println(String.format(analyzeGenreStr, age, repository.getMostPopularGenreLessThanAge(age)));
 
         String analyzeGenreStr2 = "Customs over %d choose the %s";
-        System.out.println(String.format(analyzeGenreStr2, 30, repository.getMostPopularGenreMoreThenAge(30)));
+        System.out.println(String.format(analyzeGenreStr2, age, repository.getMostPopularGenreMoreThenAge(age)));
 
     }
 }
